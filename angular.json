@@ -102,7 +102,7 @@
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
           "options": {
-            "baseHref": "",
+            "baseHref": "https://chayannerech.github.io/MeuPortfolio/",
             "repo": "https://github.com/chayannerech/MeuPortfolio.git"
           }
         }
