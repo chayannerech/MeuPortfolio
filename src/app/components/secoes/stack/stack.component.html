@@ -1,0 +1,12 @@
+<section class="app-bg-secundario d-flex justify-content-center align-items-center" id="stack">
+    <div class="container">
+      <h3 class="display-5 text-center">Stack</h3>   
+      <div class="row flex-wrap g-3 mt-3 justify-content-center ">
+        <div *ngFor="let item of itensStack" class="col-md-5 col-lg-3">
+          <div class="card rounded-5 text-center py-2">
+            <span>{{ item.titulo }}</span>
+          </div>
+        </div>  
+      </div>
+    </div>
+  </section>
