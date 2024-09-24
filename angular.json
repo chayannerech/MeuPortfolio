@@ -100,7 +100,11 @@
           "builder": "@angular-devkit/build-angular:extract-i18n"
         },
         "deploy": {
-          "builder": "angular-cli-ghpages:deploy"
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "",
+            "repo": "https://github.com/chayannerech/MeuPortfolio.git"
+          }
         }
       }
     }
