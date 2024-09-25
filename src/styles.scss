@@ -46,3 +46,9 @@ section {
 .app-data-experiencia{
     border: 1px solid white;
 }
+section {
+    min-height: 100vh; // vh = view-height
+  
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
