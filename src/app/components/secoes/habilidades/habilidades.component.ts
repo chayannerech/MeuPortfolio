@@ -14,7 +14,7 @@ export class HabilidadesComponent {
     {
       icone: "bi-window-fullscreen",
       titulo: "Web Design",
-      descricao: "Design e desenvolvimento de sistemas web atraentes e responsivos."
+      descricao: "Design e desenvolvimento de sistemas web atraentes e responsivos.",
     },    
     {
       icone: "bi-server",
@@ -35,6 +35,11 @@ export class HabilidadesComponent {
       icone: "bi-people",
       titulo: "Liderança",
       descricao: "Habilidade de liderar e tomar decisões técnicas em projetos em equipe."
+    },    
+    {
+      icone: "bi-chat",
+      titulo: "Comunicação",
+      descricao: "Habilidade de se comunicar com a equipe de forma clara e objetiva."
     },    
     {
       icone: "bi-building-up",

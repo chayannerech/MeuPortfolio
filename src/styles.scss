@@ -1,54 +1,73 @@
 @import "bootstrap";
 @import "bootstrap-icons";
 
-$cor-principal: #e451f5;
-$cor-secundaria: #00B4DB;
+$cor-principal: #ea77f7;
 
-$cor-bg-1: #0a3974;
-$cor-bg-2: #0072A3;
+$cor-bg-navbar: #78befff3;
+$cor-bg-claro: #00B4DB;
+$cor-bg-medio: #0072A3;
+$cor-bg-escuro: #0a3974;
 
+$cor-stack-itens: #006C84;
+$cor-sobre-itens: #3584c5bb;
+$cor-experiencia-itens: #2781bd;
+
+//Seções
 section {
     min-height: 100vh;
 }
-.app-texto-principal{
-    color: $cor-principal;
+.app-bg-navbar{
+    background-color: $cor-bg-navbar;
 }
-.app-bg-secundario{
-    background-color: $cor-secundaria;
+.app-bg-footer{
+    background-color: $cor-bg-escuro;
 }
-.app-bg-secundario{
-    background-color: $cor-secundaria;
+.app-bg-claro{
+    background-color: $cor-bg-claro;
+    background: -webkit-linear-gradient(to bottom, $cor-bg-navbar, $cor-bg-claro);
+    background: linear-gradient(to bottom, $cor-bg-navbar, $cor-bg-claro); 
+}
+.app-bg-medio{
+    background: $cor-bg-escuro;
+    background: -webkit-linear-gradient(to bottom, $cor-bg-navbar, $cor-bg-medio);
+    background: linear-gradient(to bottom, $cor-bg-navbar, $cor-bg-medio);  
 }
 .app-bg-escuro{
-    background-color: $cor-bg-2;
-    border-color: $cor-bg-1;
-}
-.app-btn-whatsapp{
-    background-color: $cor-bg-2;
-
-    &:hover {
-        border-color: $cor-principal;
-    }
-}
-.app-bg-escuro-2{
-    background-color: $cor-bg-1;
-}
-.app-stack-itens{
-    background-color: #006C84;
-    border-color: #0072A3;
-}
-.app-experiencia-itens{
-    background-color: #0090b8;
-}
-.display-5{
-    margin: 4rem 0;
-}
-.app-data-experiencia{
-    border: 1px solid white;
+    background-color: $cor-bg-escuro;
+    background: -webkit-linear-gradient(to bottom, $cor-bg-navbar, $cor-bg-escuro);
+    background: linear-gradient(to bottom, $cor-bg-navbar, $cor-bg-escuro);  
 }
 section {
     min-height: 100vh; // vh = view-height
   
     padding-top: 2rem;
     padding-bottom: 2rem;
+}
+
+
+//Componentes
+.app-texto-principal{
+    color: $cor-principal;
+}
+.app-bg-sobre{
+    background-color: $cor-sobre-itens;
+    border-color: $cor-bg-medio;
+}
+.app-btn-whatsapp{
+    background-color: transparent;
+    border: 2px solid $cor-bg-escuro;
+
+    &:hover {
+        border-color: $cor-principal;
+    }
+}
+.app-stack-itens{
+    background-color: $cor-stack-itens;
+    border: none;
+}
+.app-experiencia-itens{
+    background-color: $cor-experiencia-itens;
+}
+.display-5{
+    margin: 4rem 0;
 }
