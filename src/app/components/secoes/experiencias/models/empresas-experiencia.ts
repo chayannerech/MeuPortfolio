@@ -3,5 +3,6 @@ export interface EmpresasExperiencia {
     logo: string,
     cargo: string,
     stack: string,
-    emCasoDeFalha: string
+    emCasoDeFalha: string,
+    tamanho: string
 }
