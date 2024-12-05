@@ -15,8 +15,6 @@ export class StackComponent {
     { titulo: "Angular" },
     { titulo: "TypeScript" },
     { titulo: "Node.js" },
-    { titulo: "Discord.js" },
-    { titulo: "Firebase" },
     { titulo: "Entity Framework" },
     { titulo: "Microsoft SQL Server" },
     { titulo: "MongoDB" },
